@@ -1,2 +1,2 @@
 # be.rufer.babybottlecalculator
-Android app for calculating the quantity of breastmilk
+Android App for calculation of water and milk powder quantity
