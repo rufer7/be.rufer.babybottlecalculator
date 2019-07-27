@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity
         String weightInputText = weightInput.getText().toString();
         double birthWeight = Double.parseDouble(weightInputText);
         String daysOnEarthInputText = daysOnEarthInput.getText().toString();
-        int daysOnEarth = Integer.getInteger(daysOnEarthInputText);
+        int daysOnEarth = Integer.parseInt(daysOnEarthInputText);
         int numberOfMeals = mealsSeekBar.getProgress();
 
         double amountOfWater = WaterCalculator.calculateAmountOfWater(birthWeight, daysOnEarth, numberOfMeals);
