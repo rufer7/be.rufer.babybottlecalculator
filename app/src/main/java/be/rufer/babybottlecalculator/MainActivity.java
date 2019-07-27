@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity
     private TextView resultView;
 
     private static final String EMPTY_STRING = "";
+    private static final String SEEK_BAR_DELIMITER = "/";
 
     private TextWatcher textWatcher = new TextWatcher()
     {
@@ -77,7 +78,7 @@ public class MainActivity extends AppCompatActivity
 
         @Override
         public void onStopTrackingTouch(SeekBar seekBar) {
-            mealsSeekBarValue.setText(pval + "/" + seekBar.getMax());
+            mealsSeekBarValue.setText(pval + SEEK_BAR_DELIMITER + seekBar.getMax());
         }
     };
 
