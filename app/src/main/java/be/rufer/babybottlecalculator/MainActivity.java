@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity
         double spoons = MilkPowderCalculator.calculateSpoons(amountOfWater);
 
         resultView.setText(String.format(
-                "Amount of water: %fml%nSpoons: %f",
+                "Amount of water: %.2fml%nSpoons: %.2f",
                 amountOfWater,
                 spoons));
     }
