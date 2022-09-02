@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">BabyBottleCalculator</string>
+    <string name="weight_label">Birth weight (Kg)</string>
+    <string name="days_on_earth_label">Days on earth</string>
+    <string name="number_of_meals_label">Number of meals</string>
+    <string name="calculate_button">Calculate</string>
+    <string name="weight_hint">3.015</string>
+    <string name="days_on_earth_hint">5</string>
+    <string name="meals_seek_bar_default_value">6/8</string>
 </resources>
